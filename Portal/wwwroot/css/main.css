@@ -5,23 +5,29 @@
 
  }
 
-.textfield{
-  margin: 1em 0 0 1em;
-  height: 25px;
-  padding: 2px;
-  min-width: 30%;
+.mb-5{
+    margin-bottom: 0px;
+}
+.textfield {
+    border: none;
+    height: 25px;
+    padding: 2px;
+    min-width: 30%;
+    border-radius: 20px;
+    text-align: center;
 }
 
 button {
-  border: 1px solid #050e16;
-  background-color: #364cc9;
+  background-color: #192231;
   color: #ffffff;
   padding: 5px 10px;
+  border-radius: 10px;
 }
 
-button:hover {
-  cursor: pointer;
-}
+    button:hover {
+        cursor: pointer;
+        background-color: #333A56;
+    }
 
 button:disabled,
 button[disabled]{
@@ -90,9 +96,6 @@ video#remoteVideo {
 
 div.box {
   text-align: center;
-  margin-bottom: 1em;
-  padding: 2em;
-
 }
 
 div.subbox {
@@ -104,6 +107,9 @@ div.subbox {
 /*Copiado*/
 
 
+.container {
+    max-width: 100%;
+}
 
 header.masthead {
     padding-top: 10rem;
