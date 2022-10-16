@@ -624,6 +624,11 @@ progress {
     height: auto;
 }
 
+.img-fluid2 {
+    max-width: 10%;
+    height: auto;
+}
+
 .img-thumbnail {
     padding: 0.25rem;
     background-color: #fff;
@@ -3185,8 +3190,8 @@ textarea.form-control-lg {
 
     .btn-primary:hover {
         color: #fff;
-        background-color: #98878F;
-        border-color: #98878F;
+        background-color: #333A56;
+        border-color: #333A56;
     }
 
     .btn-check:focus + .btn-primary, .btn-primary:focus {
@@ -11925,8 +11930,12 @@ html {
 }
 
 .content-section2 {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 6rem;
+    padding-bottom: 8rem;
+}
+
+.content-section3 {
+    padding-top: 3rem;
 }
 
 .content-section-heading h2, .content-section-heading .h2 {
@@ -11975,8 +11984,7 @@ html {
     height: 100%;
     transition: all 0.4s ease 0s;
     transform: translateX(250px);
-    background: #1D809F;
-    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    background: #192231;
 }
 
 .sidebar-nav {
@@ -12057,6 +12065,12 @@ html {
     padding: 1.25rem 2.5rem;
 }
 
+.btn-xl:hover {
+    color: #fff;
+    background-color: #333A56;
+    border-color: #333A56;
+}
+
 .img1 {
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/4.png");
     background-position: center center;
@@ -12112,13 +12126,13 @@ footer.footer {
         width: 4rem;
         line-height: 4.3rem;
         font-size: 1.5rem;
-        background-color: #1D809F;
+        background-color: #192231;
         transition: background-color 0.15s ease-in-out;
         box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
     }
 
         footer.footer .social-link:hover {
-            background-color: #155d74;
+            background-color: #52658F;
             text-decoration: none;
         }
 
@@ -12238,7 +12252,7 @@ footer.footer {
         }
 
         .portfolio-item:hover .caption {
-            background-color: rgba(29, 128, 159, 0.9);
+            background-color: #333A56;
             -webkit-clip-path: inset(2rem);
             clip-path: inset(2rem);
         }
